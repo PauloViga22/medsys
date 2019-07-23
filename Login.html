@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title>Login Medisys</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+		<link rel="stylesheet" href="img/icon/fontawesome-free-5.9.0-web/css/all.css" />
+		<link rel="stylesheet" href="css/Login.css" />
+	</head>
+	<body class="container container-menu-login">
+		<div class="menu-login">
+			<!-- ADMINISTRADORES -->
+			<div class="login-adm1" id="login-adm1">
+				<div class="cartao-adm">
+					<button type="button" class="btn botao-adm btn-primary">
+						<i class="fas fa-user-tie"></i>
+						<p>Sou Administrador</p>
+					</button>
+				</div>
+			</div>
+
+			<div class="login-adm2 d-none" id="login-adm2">
+				<h3>Olá Administrador!</h3>
+				<form class="container container-form">
+					<div class="form-group">
+						<label for="input-login">Login</label>
+						<input type="text" class="form-control" id="input-login" placeholder="Seu login" />
+					</div>
+					<div class="form-group">
+						<label for="input-senha">Senha</label>
+						<input type="password" class="form-control" id="input-senha" placeholder="Senha" />
+					</div>
+					<div>
+						<button type="submit" class="btn btn-warning btn-voltar-login" id="btn-voltar-login-adm">Voltar</button>
+						<button type="submit" class="btn btn-success btn-entrar-login" id="btn-entrar-login-adm">Entrar</button>
+					</div>
+				</form>
+			</div>
+
+			<!-- FUNCIONARIOS -->
+
+			<div class="login-funcionario2 d-none" id="login-funcionario2">
+				<h3>Olá Funcionário!</h3>
+				<form class="container container-form">
+					<div class="form-group">
+						<label for="input-login">Login</label>
+						<input type="text" class="form-control" id="input-login" placeholder="Seu login" />
+					</div>
+					<div class="form-group">
+						<label for="input-senha">Senha</label>
+						<input type="password" class="form-control" id="input-senha" placeholder="Senha" />
+					</div>
+					<div>
+						<button type="submit" class="btn btn-warning btn-voltar-login" id="btn-voltar-login-funcionario">Voltar</button>
+
+						<button type="submit" class="btn btn-success btn-entrar-login" id="btn-entrar-login-funcionario">Entrar</button>
+					</div>
+				</form>
+			</div>
+
+			<div class="login-funcionario1" id="login-funcionario1">
+				<div class="cartao-funcionario" id="cartao-funcionario">
+					<button type="button" class="btn botao-funcionario btn-primary">
+						<i class="fas fa-user-alt"></i>
+						<p>Sou Funcionário</p>
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="js/Login.js"></script>
+	</body>
+</html>
