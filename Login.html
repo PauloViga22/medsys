@@ -11,7 +11,7 @@
 	<body class="container container-menu-login">
 		<div class="menu-login">
 			<!-- ADMINISTRADORES -->
-			<div class="login-adm1" id="login-adm1">
+			<div class="login-adm-principal" id="login-adm-principal">
 				<div class="cartao-adm">
 					<button type="button" class="btn botao-adm btn-primary">
 						<i class="fas fa-user-tie"></i>
@@ -20,16 +20,16 @@
 				</div>
 			</div>
 
-			<div class="login-adm2 d-none" id="login-adm2">
+			<div class="login-adm-secundario d-none" id="login-adm-secundario">
 				<h3>Olá Administrador!</h3>
 				<form class="container container-form">
 					<div class="form-group">
 						<label for="input-login">Login</label>
-						<input type="text" class="form-control" id="input-login" placeholder="Seu login" />
+						<input type="text" class="form-control" id="input-user-adm" placeholder="Seu login" />
 					</div>
 					<div class="form-group">
 						<label for="input-senha">Senha</label>
-						<input type="password" class="form-control" id="input-senha" placeholder="Senha" />
+						<input type="password" class="form-control" id="input-senha-adm" placeholder="Senha" />
 					</div>
 					<div>
 						<button type="submit" class="btn btn-warning btn-voltar-login" id="btn-voltar-login-adm">Voltar</button>
@@ -40,26 +40,25 @@
 
 			<!-- FUNCIONARIOS -->
 
-			<div class="login-funcionario2 d-none" id="login-funcionario2">
+			<div class="login-funcionario-secundario d-none" id="login-funcionario-secundario">
 				<h3>Olá Funcionário!</h3>
 				<form class="container container-form">
 					<div class="form-group">
 						<label for="input-login">Login</label>
-						<input type="text" class="form-control" id="input-login" placeholder="Seu login" />
+						<input type="text" class="form-control" id="input-user-funcionario" placeholder="Seu login" />
 					</div>
 					<div class="form-group">
 						<label for="input-senha">Senha</label>
-						<input type="password" class="form-control" id="input-senha" placeholder="Senha" />
+						<input type="password" class="form-control" id="input-senha-funcionario" placeholder="Senha" />
 					</div>
 					<div>
 						<button type="submit" class="btn btn-warning btn-voltar-login" id="btn-voltar-login-funcionario">Voltar</button>
-
 						<button type="submit" class="btn btn-success btn-entrar-login" id="btn-entrar-login-funcionario">Entrar</button>
 					</div>
 				</form>
 			</div>
 
-			<div class="login-funcionario1" id="login-funcionario1">
+			<div class="login-funcionario-principal" id="login-funcionario-principal">
 				<div class="cartao-funcionario" id="cartao-funcionario">
 					<button type="button" class="btn botao-funcionario btn-primary">
 						<i class="fas fa-user-alt"></i>
